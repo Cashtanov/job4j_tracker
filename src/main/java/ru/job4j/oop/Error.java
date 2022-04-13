@@ -1,9 +1,9 @@
 package ru.job4j.oop;
 
 public class Error {
-    boolean active;
-    int status;
-    String message;
+    private boolean active;
+    private int status;
+    private String message;
 
     public Error(boolean active, int status, String message) {
         this.active = active;
@@ -21,8 +21,8 @@ public class Error {
     }
 
     public static void main(String[] args) {
-        Error error = new Error(true,34,"Парам-парам");
-        Error error2 = new Error(false,20,"Пурум-пурум");
+        Error error = new Error(true, 34, "Парам-парам");
+        Error error2 = new Error(false, 20, "Пурум-пурум");
         Error error3 = new Error();
         error.printInfo();
         error2.printInfo();
