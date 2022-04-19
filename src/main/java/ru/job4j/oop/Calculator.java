@@ -1,7 +1,7 @@
 package ru.job4j.oop;
 
 public class Calculator {
-    private static final int x = 5;
+    private static int x = 5;
 
     public static int sum(int y) {
         return x + y;
@@ -28,12 +28,12 @@ public class Calculator {
         int result = sum(10);
         System.out.println("sum " + result);
         result = calculator.multiply(5);
-        System.out.println("multiply " + result );
+        System.out.println("multiply " + result);
         result = minus(5);
-        System.out.println("minus " + result );
+        System.out.println("minus " + result);
         result = calculator.divide(5);
-        System.out.println("divide " + result );
+        System.out.println("divide " + result);
         result = calculator.sumAllOperation(5);
-        System.out.println("sumAllOperation " + result );
+        System.out.println("sumAllOperation " + result);
     }
 }
