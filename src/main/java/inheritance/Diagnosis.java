@@ -8,10 +8,6 @@ public class Diagnosis {
         this.diagnosis = diagnosis;
     }
 
-    public Diagnosis() {
-
-    }
-
     public String getDiagnosis() {
         return diagnosis;
     }

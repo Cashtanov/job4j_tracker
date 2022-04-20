@@ -1,14 +1,15 @@
 package inheritance;
 
 public class Doctor extends Profession {
-    private String pacient;
 
-    public Doctor(String name, String surname, String education, String birthday) {
+    private Pacient pacient;
+
+    public Doctor(String name, String surname, String education, String birthday, Pacient pacient) {
         super(name, surname, education, birthday);
         this.pacient = pacient;
     }
 
     public Diagnosis heal(Pacient pacient) {
-        return new Diagnosis();
+        return new Diagnosis("jfj");
     }
 }
