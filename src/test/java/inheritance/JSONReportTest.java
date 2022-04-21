@@ -1,6 +1,7 @@
 package inheritance;
 
 import org.junit.Test;
+import ru.job4j.inheritance.JSONReport;
 
 import static org.junit.Assert.*;
 
