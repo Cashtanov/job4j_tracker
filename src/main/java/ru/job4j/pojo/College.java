@@ -8,7 +8,6 @@ public class College {
         student.setFullName("Петухов Илья Станиславович");
         student.setGroup("44p");
         student.setReceiptDate(new Date());
-
         System.out.println(student.getFullName() + " entered the " + student.getGroup() + " : " + student.getReceiptDate());
     }
 }
