@@ -8,9 +8,9 @@ public class FindEl {
                 rsl = i;
                 break;
             }
-            if (rsl == -1) {
-                throw new ElementNotFoundException("Url could not be null");
-            }
+        }
+        if (rsl == -1) {
+            throw new ElementNotFoundException("Url could not be null");
         }
         return rsl;
     }
