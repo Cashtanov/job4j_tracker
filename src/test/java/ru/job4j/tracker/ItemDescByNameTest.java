@@ -19,9 +19,9 @@ public class ItemDescByNameTest {
         items.add(new Item(2, "bbb"));
         Collections.sort(items, new ItemDescByName());
         List<Item> expected = new ArrayList<>();
-        expected.add(new Item(1, "ccc"));
+        expected.add(new Item(3, "ccc"));
         expected.add(new Item(2, "bbb"));
-        expected.add(new Item(3, "aaa"));
+        expected.add(new Item(1, "aaa"));
         assertThat(items, is(expected));
     }
 }
